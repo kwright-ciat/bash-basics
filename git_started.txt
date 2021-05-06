@@ -1,0 +1,8 @@
+# Configure your Git user name and email
+git config --global user.name "Keith Wright"
+git config --global user.email "kwright@ciat.edu"
+# Set the default branch name to "main"
+git config --global init.defaultBranch main
+# Display global configuration
+git config --global --list 
+
