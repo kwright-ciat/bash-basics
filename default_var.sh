@@ -10,5 +10,5 @@ echo "Hello ${place:=universe}"
 # should output "Hello universe"
 echo "Hello $place"
 # should now output "Hello universe"
-
+echo "Hello ${place:=world}"
 

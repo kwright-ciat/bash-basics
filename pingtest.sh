@@ -13,6 +13,7 @@ else
     echo "some unknown error"
     # Use an invalid hostname
 fi
+exit $RESULT
 # To introduce packet loss on the enp2s0 interface use:
 #    sudo tc qdisc add dev enp2s0 root netem loss random 35%
 # To stop packet loss use on the enp2s0 interface use:

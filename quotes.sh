@@ -1,7 +1,7 @@
 #!/bin/bash
 # Demo types of quotes
 # 
-echo Today is `date +$D`
+echo Today is `date +%D`
 # Backtick quotes cause command substitution
 echo The time is $(date +%T)
 # Command substitution can be done with $()
