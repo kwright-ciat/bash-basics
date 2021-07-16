@@ -1,4 +1,5 @@
 #!/bin/bash
+# testmonth.sh
 month=0
 while [ $month == 0 ]
 do
