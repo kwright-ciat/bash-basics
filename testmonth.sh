@@ -15,7 +15,7 @@ case $month in
 	*)
 		echo "You did not enter a valid month"
 		echo
-        month=0
+                month=0 # Use the value that is true for while loop
 		;;
 esac
 done
